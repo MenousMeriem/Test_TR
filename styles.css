@@ -72,3 +72,32 @@ margin-left: -50%;
   color: blanchedalmond;
 
   }
+  .foot{
+    background-color:rgb(225, 184, 123);
+  }
+  .futter{
+    font-size: small;
+    text-align: center;
+  }
+
+  .Face{
+    margin-left: 55%;
+  
+  }
+  .insta{
+    margin-left: -15%;
+  
+  }
+  .cont{
+    margin-left: 45%;
+    padding-bottom: 30px;
+  
+  }
+  header {
+    background-image: url("./dfcaa9_16491c56774849769986802a255e838b_mv2.webp");
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    min-height: 100vh;
+
+    }
