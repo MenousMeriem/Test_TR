@@ -8,7 +8,7 @@
 p { background:red;}
 
 input[type=text], input[type=password] {
-    width: 50%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -18,28 +18,55 @@ input[type=text], input[type=password] {
   }
  
   button {
-    background-color: #aa0404;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 50%;
+
+ background-color: #aa0404;
+color: white;
+padding: 14px 20px;
+margin-left: 240PX;;
+border: none;
+cursor: pointer;
+width: 50%;
+
   }
 
-  nav{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    align-items: flex-end;
-    background-color: rgb(240, 180, 180);
-    height: 50px;
-}
+  /* nav{ */
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* display: inline;   */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: rgb(240, 180, 180); */
+    /* height: 50px; */
+    /* margin: 160PX; */
+/* } */
+
   
-nav .Navbar {
-    margin: 10px ;
-    padding: 10px;
+/* nav .Navbar { */
+    /* margin: 10px ; */
+    /* padding: 10px; */
+    
+/* } */
+
+.form{
+padding: 20px;
+margin-left: -50%;
 }
 
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 20px;
+  background-color: rgb(171, 74, 74); }
+ 
+    
+  li {
+  
+  display: inline;
+  margin: 160PX;
+  }
+  .a{
+    
+  color: blanchedalmond;
 
-
+  }
