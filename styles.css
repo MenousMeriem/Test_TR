@@ -3,10 +3,43 @@
     font-family: 'Roboto', sans-serif;
     width: auto;
     color:rgb(39, 39, 168)
-    
+}
 
+p { background:red;}
 
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+  }
+ 
+  button {
+    background-color: #aa0404;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+  }
+
+  nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: flex-end;
+    background-color: rgb(240, 180, 180);
+    height: 50px;
+}
+  
+nav .Navbar {
+    margin: 10px ;
+    padding: 10px;
 }
 
 
-p { background:red;}
+
